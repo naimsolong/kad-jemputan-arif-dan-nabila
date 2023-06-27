@@ -89,15 +89,5 @@
     <card-section>
         Google Map
     </card-section>
-    <card-footer class="text-center">
-        <div class="grid grid-flow-col justify-stretch">
-            <div class="border-2">Kalendar</div>
-            <div class="border-2">Hubungi</div>
-            <div class="border-2">Peta</div>
-            <div class="border-2">Nota</div>
-        </div>
-        <div class="py-1 text-xs">
-            Dihasilkan oleh <a href="https://naimsolong.github.io" target="_blank">Amirul Naim</a>
-        </div>
-    </card-footer>
+    <card-footer />
 </template>
