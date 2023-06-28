@@ -1,9 +1,18 @@
 <script setup>
     definePageMeta({
         layout: "card",
-    });
+    })
 
-    const backgroundUrl = '/assets/images/pattern-1.png';
+    const backgroundUrl = '/assets/images/pattern-1.png'
+
+    const calendar = {
+        day: 'Sabtu',
+        date: {
+            masihih: '09 September 2023',
+            hijrah: '23 Safar 1445H'
+        },
+        time: '11.30 AM - 4.00 PM'
+    }
 
     const contacts = [
         {
@@ -30,6 +39,12 @@
             gmap: 'https://goo.gl/maps/evGAnusEnCFHbZC9A',
             waze: 'https://www.waze.com/en/live-map/directions/my/johor/pasir-gudang/sofea-guest-house?place=ChIJW0zy4bkV2jERH32UELnudcA'
         }
+    }
+
+    const footerDetails = {
+        calendar: calendar,
+        contacts: contacts,
+        maps: maps,
     }
 </script>
 
@@ -100,5 +115,5 @@
         </table>
         <p>Turut Mengundang Seisi Keluarga</p>
     </card-section>
-    <card-footer :contacts="contacts" :maps="maps"/>
+    <card-footer :footerDetails="footerDetails"/>
 </template>

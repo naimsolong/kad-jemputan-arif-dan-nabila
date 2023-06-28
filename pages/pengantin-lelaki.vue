@@ -3,6 +3,15 @@
         layout: "card",
     });
 
+    const calendar = {
+        day: 'Sabtu',
+        date: {
+            masihih: '16 September 2023',
+            hijrah: '30 Safar 1445H'
+        },
+        time: '11.30 AM - 4.00 PM'
+    }
+
     const contacts = [
         {
             name: "Sulong",
@@ -28,6 +37,12 @@
             gmap: 'https://goo.gl/maps/YeDdKSztNGHpLPQx7',
             waze: 'https://www.waze.com/en/live-map/directions/my/selangor/shah-alam/11,-jalan-bukit-rasa-2781?place=ChIJ684OreOyzTERaniiiECTlyU'
         }
+    }
+
+    const footerDetails = {
+        calendar: calendar,
+        contacts: contacts,
+        maps: maps,
     }
 </script>
 
@@ -94,5 +109,5 @@
         </table>
         <p>Turut Mengundang Seisi Keluarga</p>
     </card-section>
-    <card-footer :contacts="contacts" :maps="maps"/>
+    <card-footer :footerDetails="footerDetails"/>
 </template>

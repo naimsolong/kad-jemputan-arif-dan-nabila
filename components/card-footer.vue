@@ -2,8 +2,7 @@
 import { ref } from 'vue';
 
 const props = defineProps({
-    contacts: Array,
-    maps: Object
+    footerDetails: Object
 })
 
 const tab = ref('');
@@ -16,9 +15,9 @@ const changeTab = (name) => {
 <template>
     <div class="text-center sticky bottom-0 bg-[#343a40]">
         <div :class="{'hidden': tab == '','max-h-96 p-6': true}">
-            <card-footer-calendar v-if="tab == 'calendar'" />
-            <card-footer-contact v-if="tab == 'contact'" :contacts="props.contacts"/>
-            <card-footer-map v-if="tab == 'map'" :maps="maps"/>
+            <card-footer-calendar v-if="tab == 'calendar'" :calendar="props.footerDetails.calendar"/>
+            <card-footer-contact v-if="tab == 'contact'" :contacts="props.footerDetails.contacts"/>
+            <card-footer-map v-if="tab == 'map'" :maps="props.footerDetails.maps"/>
             <card-footer-note v-if="tab == 'note'" />
         </div>
         <div class="grid grid-flow-col grid-cols-4 grid-rows-1 justify-stretch text-white fill-white">
