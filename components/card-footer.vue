@@ -22,8 +22,5 @@ const changeTab = (name) => {
             <div class="border-2 cursor-pointer p-6" @click="changeTab('map')">Peta</div>
             <div class="border-2 cursor-pointer p-6" @click="changeTab('note')">Nota</div>
         </div>
-        <div class="py-1 text-xs">
-            Dihasilkan oleh <a href="https://naimsolong.github.io" target="_blank">Amirul Naim</a>
-        </div>
     </div>
 </template>
