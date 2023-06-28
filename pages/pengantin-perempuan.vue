@@ -3,7 +3,7 @@
         layout: "card",
     })
 
-    const backgroundUrl = '/assets/images/pattern-1.png'
+    const backgroundUrl = '/pattern-1.png'
 
     const calendar = {
         day: 'Sabtu',
