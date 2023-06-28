@@ -2,6 +2,33 @@
     definePageMeta({
         layout: "card",
     });
+
+    const contacts = [
+        {
+            name: "Sulong",
+            number: "013 383 1228"
+        },
+        {
+            name: "Noorma",
+            number: "013 219 8298"
+        },
+        {
+            name: "Anwar",
+            number: "013 262 8238"
+        },
+        {
+            name: "Naim",
+            number: "019 340 8298"
+        },
+    ]
+
+    const maps = {
+        iframe: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.3196353916824!2d101.56240008463271!3d3.008433246199642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cdb2e3ad0eceeb%3A0x2597934088a2786a!2s11%2C%20Jalan%20Bukit%20Rasa%2027%2F81%2C%20Taman%20Bunga%20Negara%2C%2040400%20Shah%20Alam%2C%20Selangor!5e0!3m2!1sen!2smy!4v1687917749311!5m2!1sen!2smy',
+        share: {
+            gmap: 'https://goo.gl/maps/YeDdKSztNGHpLPQx7',
+            waze: 'https://www.waze.com/en/live-map/directions/my/selangor/shah-alam/11,-jalan-bukit-rasa-2781?place=ChIJ684OreOyzTERaniiiECTlyU'
+        }
+    }
 </script>
 
 <template>
@@ -55,41 +82,17 @@
         <p>Hubungi:</p>
         <table class="mx-auto">
             <tbody>
-                <tr>
+                <tr v-for="contact in contacts">
                     <td class="text-right">
-                        Sulong :
+                        {{ contact.name }} :
                     </td>
                     <td class="text-left pl-3">
-                        013 383 1228
-                    </td>
-                </tr>
-                <tr>
-                    <td class="text-right">
-                        Noorma :
-                    </td>
-                    <td class="text-left pl-3">
-                        013 219 8298
-                    </td>
-                </tr>
-                <tr>
-                    <td class="text-right">
-                        Anwar :
-                    </td>
-                    <td class="text-left pl-3">
-                        013 262 8238
-                    </td>
-                </tr>
-                <tr>
-                    <td class="text-right">
-                        Naim :
-                    </td>
-                    <td class="text-left pl-3">
-                        019 340 8298
+                        {{ contact.number }}
                     </td>
                 </tr>
             </tbody>
         </table>
         <p>Turut Mengundang Seisi Keluarga</p>
     </card-section>
-    <card-footer />
+    <card-footer :contacts="contacts" :maps="maps"/>
 </template>
