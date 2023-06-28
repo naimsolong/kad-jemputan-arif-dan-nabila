@@ -13,7 +13,7 @@ const changeTab = (name) => {
 </script>
 
 <template>
-    <div class="text-center fixed bottom-0 bg-[#343a40]">
+    <div class="text-center sticky bottom-0 bg-[#343a40]">
         <div :class="{'hidden': tab == '','max-h-96 p-6': true}">
             <card-footer-calendar v-if="tab == 'calendar'" :calendar="props.footerDetails.calendar"/>
             <card-footer-contact v-if="tab == 'contact'" :contacts="props.footerDetails.contacts"/>
