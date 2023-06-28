@@ -3,6 +3,8 @@
         layout: "card",
     });
 
+    const backgroundUrl = '/assets/images/pattern-1.png';
+
     const contacts = [
         {
             name: "Abu Bakar",
@@ -32,21 +34,22 @@
 </script>
 
 <template>
-    <card-section class="overflow-hidden h-screen flex flex-col justify-center">
-        <div class="relative m-3 px-3 py-32 border-8 text-center">
+    <card-section class="overflow-hidden h-screen flex flex-col justify-center text-brideSecondary bg-white" :style="{ backgroundRepeat: repeat, backgroundImage: `url(${backgroundUrl})` }">
+        <div class="relative m-3 px-3 py-32 text-center">
+            <div class="absolute top-0 left-0 w-full h-full border-8 border-white drop-shadow-xl"></div>
             <img class="absolute bottom-0 right-0 w-16 -translate-x-1/2 -translate-y-1/2 scale-[4]" src="~/assets/images/flower-8.svg" alt="Flower 8"/>
             <img class="absolute bottom-0 left-0 w-16 translate-x-1/2 -translate-y-1/2 scale-[4]" src="~/assets/images/flower-6.svg" alt="Flower 6"/>
             <img class="absolute top-0 right-0 w-16 -translate-x-1/2 translate-y-1/2 scale-[5]" src="~/assets/images/flower-7.svg" alt="Flower 7"/>
             <img class="absolute top-0 left-0 w-16 translate-x-1/2 scale-[4]" src="~/assets/images/flower-5.svg" alt="Flower 5"/>
-            <p class="uppercase text-lg">Jemputan Majlis</p>
-            <p class="text-xl">Walimatul Urus</p>
+            <p class="uppercase text-lg text-brideTertiary">Jemputan Majlis</p>
+            <p class="text-xl text-brideTertiary">Walimatul Urus</p>
             <div class="text-3xl my-12">
                 <p>Nurul Nabila</p>
                 <p class="text-sm">&</p>
                 <p>Amirul Arif</p>
             </div>
-            <p>Sabtu</p>
-            <p class="flex flex-row text-center justify-center mb-3">
+            <p class="text-brideTertiary">Sabtu</p>
+            <p class="flex flex-row text-center justify-center mb-3 text-brideTertiary">
                 <span>&nbsp;&nbsp;&nbsp;&nbsp;09</span>
                 <span class="mx-3 px-3 border-x-4">September</span>
                 <span>2023</span>
@@ -54,7 +57,7 @@
             <p>Sofea Guest House<br/>Taman Bukit Dahlia, Pasir Gudang, Johor.</p>
         </div>
     </card-section>
-    <card-section class="text-center">
+    <card-section class="text-center text-brideSecondary bg-white" :style="{ backgroundRepeat: repeat, backgroundImage: `url(${backgroundUrl})` }">
         <p class="tracking-widest mb-3">Assalamualaikum W.B.T</p>
         <p class="text-xl mb-3">Abu Bakar Bin Ahmad<br/>Rafidah Binti Mohd Sharif</p>
         <p class="text-xs">
@@ -67,21 +70,21 @@
         <p class="text-xs">dan</p>
         <p class="text-lg">Amirul Arif Bin Mohd Sulong</p>
     </card-section>
-    <card-section class="text-center">
+    <card-section class="text-center text-brideTertiary bg-white">
         <p>Sabtu, 09 September 2023</p>
         <p class="mb-3">23 Safar 1445h</p>
-        <p class="mb-3">11.30 Am - 4.00 Pm</p>
+        <p class="mb-3">11.30 AM - 4.00 PM</p>
         <p>Sofea Guest House</p>
         <p>No 6, Jalan Dahlia 4,</p>
         <p>Taman Bukit Dahlia, 81700 Pasir Gudang,</p>
         <p>Johor.</p>
     </card-section>
-    <card-section class="text-center">
+    <card-section class="text-center text-brideSecondary bg-white" :style="{ backgroundRepeat: repeat, backgroundImage: `url(${backgroundUrl})` }">
         <p>Semoga dengan kehadiran dan doa restu</p>
         <p>Dato' / Datin / Tuan / Puan / Encik / Cik / Hj / Hjh</p>
         <p>dapat menyerikan lagi majlis kami dan diberkati Allah SWT</p>
     </card-section>
-    <card-section class="text-center">
+    <card-section class="text-center text-brideSecondary bg-white" :style="{ backgroundRepeat: repeat, backgroundImage: `url(${backgroundUrl})` }">
         <p>Hubungi:</p>
         <table class="mx-auto">
             <tbody>
