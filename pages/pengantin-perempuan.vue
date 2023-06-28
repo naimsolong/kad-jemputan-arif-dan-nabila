@@ -73,8 +73,7 @@
         <p class="mb-3">11.30 Am - 4.00 Pm</p>
         <p>Sofea Guest House</p>
         <p>No 6, Jalan Dahlia 4,</p>
-        <p>Taman Bukit Dahlia,</p>
-        <p>81700 Pasir Gudang,</p>
+        <p>Taman Bukit Dahlia, 81700 Pasir Gudang,</p>
         <p>Johor.</p>
     </card-section>
     <card-section class="text-center">
