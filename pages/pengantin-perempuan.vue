@@ -32,8 +32,12 @@
 </script>
 
 <template>
-    <card-section class="h-screen flex flex-col justify-center">
-        <div class="m-3 px-3 py-32 border-8 text-center">
+    <card-section class="overflow-hidden h-screen flex flex-col justify-center">
+        <div class="relative m-3 px-3 py-32 border-8 text-center">
+            <img class="absolute bottom-0 right-0 w-16 -translate-x-1/2 -translate-y-1/2 scale-[4]" src="~/assets/images/flower-8.svg" alt="Flower 8"/>
+            <img class="absolute bottom-0 left-0 w-16 translate-x-1/2 -translate-y-1/2 scale-[4]" src="~/assets/images/flower-6.svg" alt="Flower 6"/>
+            <img class="absolute top-0 right-0 w-16 -translate-x-1/2 translate-y-1/2 scale-[5]" src="~/assets/images/flower-7.svg" alt="Flower 7"/>
+            <img class="absolute top-0 left-0 w-16 translate-x-1/2 scale-[4]" src="~/assets/images/flower-5.svg" alt="Flower 5"/>
             <p class="uppercase text-lg">Jemputan Majlis</p>
             <p class="text-xl">Walimatul Urus</p>
             <div class="text-3xl my-12">
@@ -51,20 +55,22 @@
         </div>
     </card-section>
     <card-section class="text-center">
-        <p>Assalamualaikum W.B.T</p>
-        <p>Abu Bakar Bin Ahmad</p>
-        <p>Rafidah Binti Mohd Sharif</p>
-        <p>Dengan penuh kesyukuran ke hadrat Ilahi, kami sekeluarga menjemput</p>
-        <p>Dato' / Datin / Tuan / Puan / Encik / Cik / Hj / Hjh</p>
-        <p>sekeluarga hadir ke Majlis Pernikahan anakanda kami</p>
-        <p>Nurul Nabila Natasya Binti Abu Bakar</p>
-        <p>dan</p>
-        <p>Amirul Arif Bin Mohd Sulong</p>
+        <p class="tracking-widest mb-3">Assalamualaikum W.B.T</p>
+        <p class="text-xl mb-3">Abu Bakar Bin Ahmad<br/>Rafidah Binti Mohd Sharif</p>
+        <p class="text-xs">
+            Dengan penuh kesyukuran ke hadrat Ilahi, kami sekeluarga menjemput
+            <br/>
+            Dato' / Datin / Tuan / Puan / Encik / Cik / Hj / Hjh
+        </p>
+        <p class="text-xs mb-6">sekeluarga hadir ke Majlis Pernikahan anakanda kami</p>
+        <p class="text-lg">Nurul Nabila Natasya Binti Abu Bakar</p>
+        <p class="text-xs">dan</p>
+        <p class="text-lg">Amirul Arif Bin Mohd Sulong</p>
     </card-section>
     <card-section class="text-center">
         <p>Sabtu, 09 September 2023</p>
-        <p>23 Safar 1445h</p>
-        <p>11.30 Am - 4.00 Pm</p>
+        <p class="mb-3">23 Safar 1445h</p>
+        <p class="mb-3">11.30 Am - 4.00 Pm</p>
         <p>Sofea Guest House</p>
         <p>No 6, Jalan Dahlia 4,</p>
         <p>Taman Bukit Dahlia,</p>
