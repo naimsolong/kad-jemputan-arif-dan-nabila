@@ -35,9 +35,9 @@
     <card-section class="overflow-hidden h-screen flex flex-col justify-center text-[#9b8579] bg-[#fdfbf6]">
         <div class="relative m-3 px-3 py-32 border-8 border-[#e0d4bf]">
             <img class="absolute bottom-0 right-0 w-16 translate-y-1/2 scale-[3]" src="~/assets/images/flower-1.svg" alt="Flower 1"/>
-            <img class="absolute bottom-0 left-0 w-16 translate-y-1/2 scale-[4]" src="~/assets/images/flower-2.svg" alt="Flower 1"/>
-            <img class="absolute top-0 right-0 w-16 translate-y-1/2 scale-[5]" src="~/assets/images/flower-3.svg" alt="Flower 1"/>
-            <img class="absolute top-0 left-0 w-16 -translate-x-1/2 -translate-y-20 scale-[1.75]" src="~/assets/images/flower-4.svg" alt="Flower 1"/>
+            <img class="absolute bottom-0 left-0 w-16 translate-y-1/2 scale-[4]" src="~/assets/images/flower-2.svg" alt="Flower 2"/>
+            <img class="absolute top-0 right-0 w-16 translate-y-1/2 scale-[5]" src="~/assets/images/flower-3.svg" alt="Flower 3"/>
+            <img class="absolute top-0 left-0 w-16 -translate-x-1/2 -translate-y-20 scale-[3]" src="~/assets/images/flower-4.svg" alt="Flower 4"/>
             <p class="uppercase text-lg">Majlis<br/>Perkahwinan</p>
             <div class="text-3xl text-[#b38f69] my-6">
                 <p>Amirul Arif</p>
@@ -65,7 +65,7 @@
         <p class="text-xs">dan</p>
         <p class="text-lg">Nurul Nabila Natasya Binti Abu Bakar</p>
     </card-section>
-    <card-section class="text-center text-[#b38f69]">
+    <card-section class="text-center text-[#b38f69] bg-white">
         <p>Sabtu, 16 September 2023</p>
         <p class="mb-3">30 Safar 1445h</p>
         <p class="mb-3">11.30 AM - 4.00 PM</p>
