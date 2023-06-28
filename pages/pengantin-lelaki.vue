@@ -93,7 +93,7 @@
         <p>Dato' / Datin / Tuan / Puan / Encik / Cik / Hj / Hjh</p>
         <p>dapat menyerikan lagi majlis kami dan diberkati Allah SWT</p>
     </card-section>
-    <card-section class="text-center text-groomSecondary bg-groomPrimary">
+    <card-section class="mb-24 text-center text-groomSecondary bg-groomPrimary">
         <p>Hubungi:</p>
         <table class="mx-auto">
             <tbody>

@@ -99,7 +99,7 @@
         <p>Dato' / Datin / Tuan / Puan / Encik / Cik / Hj / Hjh</p>
         <p>dapat menyerikan lagi majlis kami dan diberkati Allah SWT</p>
     </card-section>
-    <card-section class="text-center text-brideSecondary bg-white" :style="{ backgroundRepeat: repeat, backgroundImage: `url(${backgroundUrl})` }">
+    <card-section class="mb-24 text-center text-brideSecondary bg-white" :style="{ backgroundRepeat: repeat, backgroundImage: `url(${backgroundUrl})` }">
         <p>Hubungi:</p>
         <table class="mx-auto">
             <tbody>
