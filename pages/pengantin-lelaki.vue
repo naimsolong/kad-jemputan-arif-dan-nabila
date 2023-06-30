@@ -9,7 +9,12 @@
             masihih: '16 September 2023',
             hijrah: '30 Safar 1445H'
         },
-        time: '11.30 AM - 4.00 PM'
+        time: '11.30 AM - 4.00 PM',
+        add: {
+            gcalendar: 'https://calendar.google.com/calendar/render?action=TEMPLATE&text=Walimatul+Urus+-+Amirul+Arif+dan+Nurul+Nabila&details=Wedding&dates=20230916T110000/20230916T160000&location=11,+Jalan+Bukit+Rasa,+27/81',
+            ics: '/ics/majlis_lelaki.ics',
+            outlook: 'https://outlook.office.com/calendar/0/deeplink/compose?subject=Walimatul+Urus+-+Amirul+Arif+dan+Nurul+Nabila&body=Wedding&startdt=2023-09-16T11:00:00+00:00&enddt=2022-09-16T16:00:00+00:00&location=11,+Jalan+Bukit+Rasa,+27/81&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent',
+        }
     }
 
     const contacts = [

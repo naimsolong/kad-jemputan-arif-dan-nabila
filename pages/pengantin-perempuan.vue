@@ -11,7 +11,12 @@
             masihih: '09 September 2023',
             hijrah: '23 Safar 1445H'
         },
-        time: '11.30 AM - 4.00 PM'
+        time: '11.30 AM - 4.00 PM',
+        add: {
+            gcalendar: 'https://calendar.google.com/calendar/render?action=TEMPLATE&text=Walimatul+Urus+-+Nurul+Nabila+dan+Amirul+Arif&details=Wedding&dates=20230909T110000/20230909T160000&location=Sofea+Guest+House,+Taman+Bukit+Dahlia',
+            ics: '/ics/majlis_perempuan.ics',
+            outlook: 'https://outlook.office.com/calendar/0/deeplink/compose?subject=Walimatul+Urus+-+Nurul+Nabila+dan+Amirul+Arif&body=Wedding&startdt=2023-09-09T11:00:00+00:00&enddt=2022-09-09T16:00:00+00:00&location=Sofea+Guest+House,+Taman+Bukit+Dahlia&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent',
+        }
     }
 
     const contacts = [
