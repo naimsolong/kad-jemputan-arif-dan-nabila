@@ -13,7 +13,7 @@ const parseWhatsAppHref = (number) => {
 </script>
 <template>
     <div class="text-white fill-white">
-        <p class="text-xl mb-9">Hubungi</p>
+        <p class="text-xl mb-9 uppercase font-bold">Hubungi</p>
         <div class="grid grid-flow-row auto-rows-maxl">
             <div class="flex justify-around mb-9" v-for="contact in contacts">
                 <div class="text-right">
