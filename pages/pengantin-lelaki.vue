@@ -1,7 +1,8 @@
 <script setup>
     definePageMeta({
         layout: "card",
-    });
+        title: "Majlis Lelaki"
+    })
 
     const calendar = {
         day: 'Sabtu',

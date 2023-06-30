@@ -1,6 +1,7 @@
 <script setup>
     definePageMeta({
         layout: "card",
+        title: "Majlis Perempuan"
     })
 
     const backgroundUrl = '/pattern-1.png'
