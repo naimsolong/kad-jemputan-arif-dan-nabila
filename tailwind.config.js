@@ -24,7 +24,21 @@ export default {
                 },
             },
             fontFamily: {
-                sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+                sans: [
+                    ...defaultTheme.fontFamily.sans,
+                    'Figtree',
+                    'Proxima Nova',
+                ],
+                Miama: 'Miama',
+                Cormorant: 'Cormorant',
+                CormorantInfanct: 'CormorantInfanct',
+                CormorantGaramond: 'CormorantGaramond',
+                CormorantUpright: 'CormorantUpright',
+                CormorantUnicase: 'CormorantUnicase',
+                Baskerville: 'Baskerville',
+                spinwerad: 'spinwerad',
+                GreatVibes: 'GreatVibes',
+                PlayfairDisplay: 'PlayfairDisplay',
             },
             transitionDuration: {
                 '2000': '2000ms',

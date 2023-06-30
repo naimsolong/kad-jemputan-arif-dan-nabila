@@ -62,36 +62,36 @@
             <img class="absolute bottom-0 left-0 w-16 translate-x-1/2 -translate-y-1/2 scale-[4]" src="~/assets/images/flower-6.svg" alt="Flower 6"/>
             <img class="absolute top-0 right-0 w-16 -translate-x-1/2 translate-y-1/2 scale-[5]" src="~/assets/images/flower-7.svg" alt="Flower 7"/>
             <img class="absolute top-0 left-0 w-16 translate-x-1/2 scale-[4]" src="~/assets/images/flower-5.svg" alt="Flower 5"/>
-            <p class="uppercase text-lg text-brideTertiary">Jemputan Majlis</p>
-            <p class="text-xl text-brideTertiary">Walimatul Urus</p>
-            <div class="text-3xl my-12">
-                <p>Nurul Nabila</p>
+            <p class="uppercase text-lg text-brideTertiary font-Cormorant">Jemputan Majlis</p>
+            <p class="text-xl text-brideTertiary font-GreatVibes">Walimatul Urus</p>
+            <div class="text-3xl my-12 font-PlayfairDisplay">
+                <p class="tracking-widest text-5xl italic">Nurul Nabila</p>
                 <p class="text-sm">&</p>
-                <p>Amirul Arif</p>
+                <p class="tracking-widest text-5xl italic">Amirul Arif</p>
             </div>
-            <p class="text-brideTertiary">Sabtu</p>
-            <p class="flex flex-row text-center justify-center mb-3 text-brideTertiary">
+            <p class="text-brideTertiary font-spinwerad">Sabtu</p>
+            <p class="flex flex-row text-center justify-center mb-3 text-brideTertiary font-Cormorant">
                 <span>&nbsp;&nbsp;&nbsp;&nbsp;09</span>
                 <span class="mx-3 px-3 border-x-4">September</span>
                 <span>2023</span>
             </p>
-            <p>Sofea Guest House<br/>Taman Bukit Dahlia, Pasir Gudang, Johor.</p>
+            <p class="font-Cormorant">Sofea Guest House<br/>Taman Bukit Dahlia, Pasir Gudang, Johor.</p>
         </div>
     </card-section>
-    <card-section class="text-center text-brideSecondary bg-white" :style="{ backgroundRepeat: repeat, backgroundImage: `url(${backgroundUrl})` }">
+    <card-section class="text-center text-brideSecondary bg-white font-Cormorant" :style="{ backgroundRepeat: repeat, backgroundImage: `url(${backgroundUrl})` }">
         <p class="tracking-widest mb-3">Assalamualaikum W.B.T</p>
-        <p class="text-xl mb-3">Abu Bakar Bin Ahmad<br/>Rafidah Binti Mohd Sharif</p>
+        <p class="text-xl mb-3 font-spinwerad uppercase">Abu Bakar Bin Ahmad<br/>Rafidah Binti Mohd Sharif</p>
         <p class="text-xs">
             Dengan penuh kesyukuran ke hadrat Ilahi, kami sekeluarga menjemput
             <br/>
             Dato' / Datin / Tuan / Puan / Encik / Cik / Hj / Hjh
         </p>
         <p class="text-xs mb-6">sekeluarga hadir ke Majlis Pernikahan anakanda kami</p>
-        <p class="text-lg">Nurul Nabila Natasya Binti Abu Bakar</p>
+        <p class="text-lg font-spinwerad uppercase">Nurul Nabila Natasya Binti Abu Bakar</p>
         <p class="text-xs">dan</p>
-        <p class="text-lg">Amirul Arif Bin Mohd Sulong</p>
+        <p class="text-lg font-spinwerad uppercase">Amirul Arif Bin Mohd Sulong</p>
     </card-section>
-    <card-section class="text-center text-brideTertiary bg-white">
+    <card-section class="text-center text-brideTertiary bg-white font-Cormorant">
         <p>Sabtu, 09 September 2023</p>
         <p class="mb-3">23 Safar 1445h</p>
         <p class="mb-3">11.30 AM - 4.00 PM</p>
@@ -100,12 +100,12 @@
         <p>Taman Bukit Dahlia, 81700 Pasir Gudang,</p>
         <p>Johor.</p>
     </card-section>
-    <card-section class="text-center text-brideSecondary bg-white" :style="{ backgroundRepeat: repeat, backgroundImage: `url(${backgroundUrl})` }">
+    <card-section class="text-center text-brideSecondary bg-white font-Cormorant" :style="{ backgroundRepeat: repeat, backgroundImage: `url(${backgroundUrl})` }">
         <p>Semoga dengan kehadiran dan doa restu</p>
         <p>Dato' / Datin / Tuan / Puan / Encik / Cik / Hj / Hjh</p>
         <p>dapat menyerikan lagi majlis kami dan diberkati Allah SWT</p>
     </card-section>
-    <card-section class="text-center text-brideSecondary bg-white" :style="{ backgroundRepeat: repeat, backgroundImage: `url(${backgroundUrl})` }">
+    <card-section class="text-center text-brideSecondary bg-white font-Cormorant" :style="{ backgroundRepeat: repeat, backgroundImage: `url(${backgroundUrl})` }">
         <p>Hubungi:</p>
         <table class="mx-auto">
             <tbody>
