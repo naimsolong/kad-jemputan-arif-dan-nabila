@@ -13,7 +13,7 @@ const changeTab = (name) => {
 </script>
 
 <template>
-    <div class="text-center sticky bottom-0 bg-[#343a40]">
+    <div class="text-center sticky bottom-0 min-w-96 max-w-lg max-w-fit mx-auto drop-shadow-xl bg-[#343a40]">
         <div :class="{'hidden': tab == '','max-h-96 p-6 mb-5': true}">
             <div class="absolute min-w-max min-h-max top-0 right-0 mr-7 -mt-2 cursor-pointer bg-[#282928] fill-white rounded-full" @click="changeTab('')">
                 <svg class="stroke-2 stroke-[#282928] scale-[2] drop-shadow-lg" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM175 175c9.4-9.4 24.6-9.4 33.9 0l47 47 47-47c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-47 47 47 47c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-47-47-47 47c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l47-47-47-47c-9.4-9.4-9.4-24.6 0-33.9z"/></svg>
@@ -36,9 +36,6 @@ const changeTab = (name) => {
             <div class="cursor-pointer py-6" @click="changeTab('rsvp')">
                 <svg class="mx-auto scale-[2]" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 64C0 28.7 28.7 0 64 0H224V128c0 17.7 14.3 32 32 32H384v38.6C310.1 219.5 256 287.4 256 368c0 59.1 29.1 111.3 73.7 143.3c-3.2 .5-6.4 .7-9.7 .7H64c-35.3 0-64-28.7-64-64V64zm384 64H256V0L384 128zM288 368a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm211.3-43.3c-6.2-6.2-16.4-6.2-22.6 0L416 385.4l-28.7-28.7c-6.2-6.2-16.4-6.2-22.6 0s-6.2 16.4 0 22.6l40 40c6.2 6.2 16.4 6.2 22.6 0l72-72c6.2-6.2 6.2-16.4 0-22.6z"/></svg>
             </div>
-        </div>
-        <div class="py-1 text-xs text-white bg-[#282928] border-t border-black">
-            Dihasilkan oleh <a href="https://naimsolong.github.io" target="_blank" class="hover:font-bold underline">Amirul Naim</a>
         </div>
     </div>
 </template>
