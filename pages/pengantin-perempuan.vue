@@ -55,7 +55,7 @@
 </script>
 
 <template>
-    <card-section class="overflow-hidden h-screen flex flex-col justify-center text-brideSecondary bg-white" :style="{ backgroundRepeat: repeat, backgroundImage: `url(${backgroundUrl})` }">
+    <card-section class="overflow-hidden flex flex-col justify-center text-brideSecondary bg-white" :style="{ backgroundRepeat: repeat, backgroundImage: `url(${backgroundUrl})` }">
         <div class="relative m-3 px-3 py-32 text-center">
             <div class="absolute top-0 left-0 w-full h-full border-8 border-white drop-shadow-xl"></div>
             <img class="absolute bottom-0 right-0 w-16 -translate-x-1/2 -translate-y-1/2 scale-[4]" src="~/assets/images/flower-8.svg" alt="Flower 8"/>
