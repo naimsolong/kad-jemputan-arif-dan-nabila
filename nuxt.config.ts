@@ -5,7 +5,7 @@ export default defineNuxtConfig({
       title: 'Walimatul Urus',
       meta: [
         { charset: 'utf-8' },
-        { name: 'viewport', content: 'width=device-width, minimum-scale=1' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1.0, user-scalable=no' },
       ],
       link: [{ rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }]
     }
