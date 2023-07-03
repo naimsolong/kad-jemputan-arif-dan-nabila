@@ -1,6 +1,6 @@
 <script setup>
     definePageMeta({
-        layout: "default",
+        layout: "card",
         title: "Majlis Perempuan"
     })
 
@@ -55,7 +55,7 @@
 </script>
 
 <template class="bg-gray-100">
-    <div class="min-w-96 max-w-lg max-w-fit mx-auto drop-shadow-xl">
+    <div>
         <card-section class="overflow-hidden flex flex-col justify-center text-brideSecondary bg-white" :style="{ backgroundRepeat: repeat, backgroundImage: `url(${backgroundUrl})` }">
             <div class="relative m-3 px-3 py-32 text-center">
                 <div class="absolute top-0 left-0 w-full h-full border-8 border-white drop-shadow-xl"></div>
@@ -66,9 +66,9 @@
                 <p class="uppercase text-lg text-brideTertiary font-Cormorant">Jemputan Majlis</p>
                 <p class="text-xl text-brideTertiary font-GreatVibes">Walimatul Urus</p>
                 <div class="text-3xl my-12 font-PlayfairDisplay">
-                    <p class="tracking-widest text-5xl italic">Nurul Nabila</p>
+                    <p class="tracking-widest sm:text-5xl italic">Nurul Nabila</p>
                     <p class="text-sm">&</p>
-                    <p class="tracking-widest text-5xl italic">Amirul Arif</p>
+                    <p class="tracking-widest sm:text-5xl italic">Amirul Arif</p>
                 </div>
                 <p class="text-brideTertiary font-spinwerad">Sabtu</p>
                 <p class="flex flex-row text-center justify-center mb-3 text-brideTertiary font-Cormorant">
