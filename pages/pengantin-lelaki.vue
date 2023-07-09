@@ -44,11 +44,16 @@
             waze: 'https://www.waze.com/en/live-map/directions/my/selangor/shah-alam/11,-jalan-bukit-rasa-2781?place=ChIJ684OreOyzTERaniiiECTlyU'
         }
     }
+    
+    const rsvp = {
+        iframe: 'https://docs.google.com/forms/d/e/1FAIpQLScWK8BGhp0we7Zu5L3JDwDhILUQnKF3lC0uvUyYCcQPUsaL_g/viewform?embedded=true'
+    }
 
     const footerDetails = {
         calendar: calendar,
         contacts: contacts,
         maps: maps,
+        rsvp: rsvp,
     }
 </script>
 
