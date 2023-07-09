@@ -14,14 +14,14 @@ const changeTab = (name) => {
 
 <template>
     <div class="text-center sticky bottom-0 bg-[#343a40]">
-        <div :class="{'hidden': tab == '','max-h-96 p-6 mb-5': true}">
+        <div :class="{'hidden': tab == '','min-h-96 p-6 mb-5': true}">
             <div class="absolute min-w-max min-h-max top-0 right-0 mr-7 -mt-2 cursor-pointer bg-[#282928] fill-white rounded-full" @click="changeTab('')">
                 <svg class="stroke-2 stroke-[#282928] scale-[2] drop-shadow-lg" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM175 175c9.4-9.4 24.6-9.4 33.9 0l47 47 47-47c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-47 47 47 47c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-47-47-47 47c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l47-47-47-47c-9.4-9.4-9.4-24.6 0-33.9z"/></svg>
             </div>
             <card-footer-calendar v-if="tab == 'calendar'" :calendar="props.footerDetails.calendar"/>
             <card-footer-contact v-if="tab == 'contact'" :contacts="props.footerDetails.contacts"/>
             <card-footer-map v-if="tab == 'map'" :maps="props.footerDetails.maps"/>
-            <card-footer-rsvp v-if="tab == 'rsvp'" />
+            <card-footer-rsvp v-if="tab == 'rsvp'" :rsvp="props.footerDetails.rsvp"/>
         </div>
         <div class="grid grid-flow-col grid-cols-4 grid-rows-1 justify-stretch text-white fill-white bg-[#282928]">
             <div class="cursor-pointer py-6" @click="changeTab('calendar')">

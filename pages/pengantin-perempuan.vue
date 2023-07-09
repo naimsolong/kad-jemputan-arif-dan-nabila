@@ -46,11 +46,16 @@
             waze: 'https://www.waze.com/en/live-map/directions/my/johor/pasir-gudang/sofea-guest-house?place=ChIJW0zy4bkV2jERH32UELnudcA'
         }
     }
+    
+    const rsvp = {
+        iframe: 'https://docs.google.com/forms/d/e/1FAIpQLSejzWBk7IRouO_00ut12Cdae8I-AM7ZmUkuFZQLlm2K5wS1qw/viewform?embedded=true'
+    }
 
     const footerDetails = {
         calendar: calendar,
         contacts: contacts,
         maps: maps,
+        rsvp: rsvp,
     }
 </script>
 
