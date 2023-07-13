@@ -8,9 +8,9 @@
                 <card class="bg-groomPrimary" type="groom">
                     <div class="flex w-full h-full items-center tracking-widest font-bold text-groomTertiary font-GreatVibes group">
                         <span class="mx-auto z-10">
-                            <h1 class="text-5xl mt-12 mb-3 group-hover:scale-[1.2]">Majlis Pengantin Lelaki</h1>
-                            <p class="text-center text-sm text-groomSecondary font-['Georgia']">16 September 2023</p>
-                            <p class="text-center text-sm text-groomSecondary font-['Georgia']">Seksyen 27, Shah Alam, Selangor</p>
+                            <h1 class="text-4xl md:text-8xl mt-12 mb-3 group-hover:scale-[1.2]">Majlis Pengantin Lelaki</h1>
+                            <p class="text-center text-md md:text-2xl text-groomSecondary font-['Georgia']">16 September 2023</p>
+                            <p class="text-center text-md md:text-2xl text-groomSecondary font-['Georgia']">Seksyen 27, Shah Alam, Selangor</p>
                         </span>
                         <img class="absolute bottom-0 right-0 w-16 -translate-x-8 scale-[3]" src="~/assets/images/flower-1.svg" alt="Flower 1"/>
                         <img class="absolute bottom-0 left-0 w-16 translate-x-8 scale-[4]" src="~/assets/images/flower-2.svg" alt="Flower 2"/>
@@ -21,11 +21,11 @@
             </NuxtLink>
             <NuxtLink to="/pengantin-perempuan" class="h-1/2">
                 <card class="bg-white" type="bride">
-                    <div class="flex w-full h-full items-center tracking-widest font-bold text-3xl text-brideTertiary font-PlayfairDisplay group">
+                    <div class="flex w-full h-full items-center tracking-widest font-bold text-brideTertiary font-PlayfairDisplay group">
                         <span class="mx-auto z-10">
-                            <h1 class="text-3xl mt-12 mb-3 group-hover:scale-[1.2]">Majlis Pengantin Perempuan</h1>
-                            <p class="text-center text-sm text-brideSecondary font-Cormorant">09 September 2023</p>
-                            <p class="text-center text-sm text-brideSecondary font-Cormorant">Sofea Guest House, Pasir Gudang, Johor</p>
+                            <h1 class="text-2xl md:text-6xl mt-12 mb-3 group-hover:scale-[1.2]">Majlis Pengantin Perempuan</h1>
+                            <p class="text-center text-md md:text-2xl text-brideSecondary font-Cormorant">09 September 2023</p>
+                            <p class="text-center text-md md:text-2xl text-brideSecondary font-Cormorant">Sofea Guest House, Pasir Gudang, Johor</p>
                         </span>
                         <img class="absolute bottom-0 right-0 w-16 -translate-x-16 -translate-y-10 scale-[3]" src="~/assets/images/flower-8.svg" alt="Flower 8"/>
                         <img class="absolute bottom-0 left-0 w-16 translate-x-12 -translate-y-16 scale-[3]" src="~/assets/images/flower-6.svg" alt="Flower 6"/>
