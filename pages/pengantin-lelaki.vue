@@ -81,7 +81,7 @@
         </card-section>
         <card-section class="text-center text-groomSecondary bg-groomPrimary font-['Georgia']">
             <p class="tracking-widest mb-3">Assalamualaikum W.B.T</p>
-            <p class="text-xl mb-3 font-Baskerville">Hj Mohd Solong Bin Abdul Ghani<br/>Hjh Noorma Binti Othman</p>
+            <p class="text-xl mb-3 font-Baskerville">Hj Mohd Sulong Bin Abdul Ghani<br/>Hjh Noorma Binti Othman</p>
             <p class="text-xs">
                 Dengan penuh kesyukuran ke hadrat Ilahi, kami sekeluarga menjemput
                 <br/>
